@@ -3,4 +3,4 @@
 
 #ignore modules directory
 /node_modules
-/package.json
+/package-lock.json
