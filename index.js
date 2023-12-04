@@ -52,11 +52,11 @@ console.log(req.file.originalname)
             model: "whisper-1",
         });
 
-        console.log(transcriptions);
+        // console.log(transcriptions);
 
         res.json({
             status: 200,
-            data: transcriptions,
+           transcriptions,
         });
     } catch (err) {
         console.error(err);
